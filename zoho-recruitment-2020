@@ -9,7 +9,7 @@ void main(){
     count = len/2; 
 
     for(int i=0;i<len;i++){
-        if(i==len+1){
+        if(i==count+1){
             count=0;
         }
         for(int j=0;j<strlen(a);j++){
