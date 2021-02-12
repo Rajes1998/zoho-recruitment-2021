@@ -15,13 +15,14 @@ void main(){
         for(int j=0;j<strlen(a);j++){
             if(i+j>=len-1){
                 printf("%c",a[count]);
-                count++;
-                
+count++;
             }
             else{
             printf(" ");
         }
         }
+        count=len/2;
         printf("\n");
     }
 }
+
